@@ -4,9 +4,8 @@ import {  Link, NavLink } from "react-router-dom";
 const MyNavbar = () => {
     return (
         <Navbar fluid rounded>
-            <Navbar.Brand href="https://flowbite-react.com">
-                <img src="/favicon.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
-                <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Flowbite React</span>
+            <Navbar.Brand href="/">
+                <img src="https://micronet.work/demo/wp-content/uploads/2023/04/demo_logo.png" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
             </Navbar.Brand>
             <div className="flex md:order-2">
                 <Button><Link to="login">login</Link></Button>

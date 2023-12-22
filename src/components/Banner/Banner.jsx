@@ -1,7 +1,7 @@
 
 const Banner = () => {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-items-center w-11/12 mx-auto">
             <div>
                 <h1 className="text-5xl font-bold">Manage work <br /><span className="text-[#d88531]">Efficiently.</span></h1>
                 <h4 className="text-2xl font-bold">Plan, Track and Organise your work.</h4>
